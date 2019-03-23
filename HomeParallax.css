@@ -1,0 +1,158 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  /* font: 400 15px/1.8 "Lato", sans-serif; */
+  background-color: #1d1d1d;
+  font-family: segoe ui;
+  /* height: 225vh; */
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: -8px;
+  z-index: 10;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #2d89ef;
+  color: white;
+}
+
+.topnav img{
+  left: 10px;
+  margin-top: -40px;
+  position: absolute;
+  float: left;
+  height: 90px;
+}
+
+.bgimg-1, .bgimg-2{
+  position: relative;
+  /* opacity: 0.65; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://images.wallpaperscraft.com/image/controller_joystick_gamepad_133489_3840x2160.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://images.wallpaperscraft.com/image/xbox_game_console_console_joystick_controller_112323_3840x2160.jpg");
+  min-height: 85%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+/*Everything below this line is 100% custom*/
+.BoxSpan{
+  top: 20%;
+  right: 10%;
+  height: 60vh;
+  width: 80%;
+  border-radius: 3px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  position: absolute;
+  /* border: 1px solid black; */
+  text-align: center;
+  position: absolute;
+}
+
+.BoxSpan p{
+  margin-top: -60px;
+  color: black;
+  font-size: 30px;
+}
+
+.BoxT1{
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 50vh;
+  width: 30%;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  margin-top: 0px;
+  color: #000;
+  background-color: #999999;
+}
+
+.BoxT1 p, .BoxT2 p{
+  width: 90%;
+  text-align: center justify;
+  margin-top: 10%;
+  margin-left: 5%;
+  font-size: 12px;
+}
+
+
+.BoxT2{
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 50vh;
+  width: 50%;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  margin-top: 0px;
+  color: #000;
+  background-color: #999999;
+}
